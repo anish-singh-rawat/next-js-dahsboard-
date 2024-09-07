@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+section {
+  height: 100vh;
+  display: grid;
+  padding: 2.5em;
+  border-radius: .4em;
+}
+.down {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 0px;
+} 
+
+.down p{
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}

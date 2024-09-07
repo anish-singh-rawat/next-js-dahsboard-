@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "src/api/auth/EditUser/[id]/route.js", "src/api/auth/[...nextauth]/options.js", "src/api/auth/[...nextauth]/route.js", "src/api/auth/DeleteUser/route.js", "src/api/auth/Getusers/route.js", "src/api/auth/Login/route.js", "src/api/auth/Register/route.js", "src/validator/authSchema.js", "src/validator/ErrorReporter.js"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,89 @@
+.top-input-feild{
+    display: flex;
+    justify-content: space-between;
+}
+.add-user-input{
+    display: flex;
+    justify-content: space-between;
+}
+.add-user-inputs{
+    width: 330px;
+    background-color: #282c32;
+    color: rgb(255, 255, 255);    margin-top: 10px;
+    height: 45px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+}
+.upload-profile-feild{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.file-input{
+    width: 340px;
+    border: 2px solid black;
+}
+.container-fluid{
+    height: 100vh;
+    overflow-y: hidden;
+}
+@media (max-width: 564px) {
+    .file-input{
+        width: 20px;
+        border: 2px solid rgb(10, 7, 7);
+        border-radius: 8px;
+    }
+}
+@media (max-width : 1084px) {
+    .add-user-input{
+        display: block;
+    }
+    .responsive-input{
+        margin-top: 10px;
+    }
+    .add-user-inputs{
+        width: 400px;
+        background-color: #282c32;
+        color: rgb(255, 255, 255);
+        margin-top: 10px;
+        height: 40px;
+        border-radius: 15px;
+        outline: none;
+        border: none;
+    }
+    .upload-profile-feild{
+        margin-top: 10px;
+        display: block;
+    }
+}
+
+@media (max-width : 986px) {
+    .top-input-feild{
+        display: block;
+    }
+    .container-fluid{
+        height: auto;
+        overflow-y: hidden;
+    }
+}
+
+@media (max-width : 706px) {
+    .mui-class{
+        width: 100px;
+    }
+}
+
+@media (max-width : 718px) {
+    .file-input{
+        width: 250px;
+    }
+    .add-user-inputs{
+        width: 300px;
+    }
+}
+@media (max-width : 605px) {
+    .add-user-inputs{
+        width: auto;
+    }
+}
